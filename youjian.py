@@ -7,7 +7,7 @@ def send(msgs,email):
     subject = 'python mail'
     smtpsever = 'smtp.qq.com'
     username = '1690634654@qq.com'
-    password = 'zetgnxhdeousdegi'
+    password = ''
     msg = MIMEText(msgs,'plain','utf-8')
     msg['subject'] = Header(subject,'utf-8')
     smtp = smtplib.SMTP()
